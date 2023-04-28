@@ -73,7 +73,7 @@ void loop() {
 
   
   deger = String(gram)+"/"+String(newton)+"/"+String(max_gram)+"/"+String(max_newton)+"/"+String(state)+"\r\n";
-  ResponseStatus rs = E22.sendFixedMessage( 0,0,23, deger);
+  ResponseStatus rs = E22.sendMessage( 0,0,23, deger);
   Serial.print(rs.getResponseDescription());
   delay(299);
   /*
