@@ -28,7 +28,7 @@ int sayi1=1;
 // LORA kodlar -----------------------
 
 // ---------------------- laodcell - hx711
-float calibration_factor = -301; // konfigurasyon -301 e göre yapılmaktadır. -> 10-15 gr eksik.
+float calibration_factor = -92; // konfigurasyon -92 e göre yapılmaktadır. 
 float gram,second_gram;
 float newton,second_newton;
 float max_gram;
